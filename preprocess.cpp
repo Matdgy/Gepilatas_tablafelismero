@@ -3,6 +3,7 @@
 using namespace std;
 using namespace cv;
 
+//trackbart hoz létre a színszûrés megfelelõ határértékeinek megtalálásához
 void pp::trackbar(Mat input) {
 	Mat mask, inputHSV;
 	cvtColor(input, inputHSV, COLOR_BGR2HSV);
@@ -28,12 +29,14 @@ void pp::trackbar(Mat input) {
 	}
 }
 
+//piros színre szûr
 Mat pp::red(Mat input) {
 	Mat mask1, mask2, inputHSV;
 	cvtColor(input, inputHSV, COLOR_BGR2HSV);
+	//GaussianBlur(inputHSV, inputHSV, Size(5, 5), 0);
 
-	inRange(inputHSV, Scalar(0, 70, 50), Scalar(10, 255, 255), mask1);
-	inRange(inputHSV, Scalar(170, 70, 50), Scalar(180, 255, 255), mask2);
+	inRange(inputHSV, Scalar(0, 170, 70), Scalar(10, 255, 255), mask1);
+	inRange(inputHSV, Scalar(170, 170, 70), Scalar(180, 255, 255), mask2);
 
 	Mat1b mask = mask1 | mask2;
 	bitwise_not(mask, mask);
@@ -43,11 +46,13 @@ Mat pp::red(Mat input) {
 	return mask;
 }
 
+//kék színre szûr
 Mat pp::blue(Mat input) {
 	Mat mask, inputHSV;
 	cvtColor(input, inputHSV, COLOR_BGR2HSV);
+	//GaussianBlur(inputHSV, inputHSV, Size(5, 5), 0);
 
-	inRange(inputHSV, Scalar(100, 180, 70), Scalar(120, 255, 255), mask);
+	inRange(inputHSV, Scalar(100, 170, 70), Scalar(120, 255, 255), mask);
 
 	bitwise_not(mask, mask);
 
@@ -56,11 +61,15 @@ Mat pp::blue(Mat input) {
 	return mask;
 }
 
+//sárga színre szûr
 Mat pp::yellow(Mat input) {
 	Mat mask, inputHSV;
 	cvtColor(input, inputHSV, COLOR_BGR2HSV);
+	//GaussianBlur(inputHSV, inputHSV, Size(5, 5), 0);
 
-	inRange(inputHSV, Scalar(20, 180, 70), Scalar(30, 255, 255), mask);
+	inRange(inputHSV, Scalar(20, 170, 70), Scalar(30, 255, 255), mask);
+
+	bitwise_not(mask, mask);
 
 	//Mat kernel = getStructuringElement(MORPH_RECT, Size(2, 2));
 	//erode(mask, mask, kernel, Point(-1, -1), 3);

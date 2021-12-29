@@ -1,0 +1,441 @@
+--0--
+stop: 0.0382476
+--> STOP
+
+--1--
+behajtani tilos: 0.397617
+stop: 0.67983
+--> BEHAJTANI TILOS
+
+--2--
+autopalya: 0.0109073
+parkoló: 0.422083
+--> AUTÓPÁLYA
+
+--3--
+fõútvonal: 3.28361e-05
+--> FÕÚTVONAL
+
+--4--
+stop: 0.985885
+fõútvonal: 3.28345e-05
+--> FÕÚTVONAL
+
+--5--
+behajtani tilos: 0.137766
+stop: 0.449161
+--> BEHAJTANI TILOS
+
+--6--
+stop: 0.604953
+autopalya: 0.173366
+parkoló: 0.0419784
+--> PARKOLÓ
+
+--7--
+autopalya: 0.0883386
+parkoló: 0.0709768
+--> PARKOLÓ
+
+--8--
+stop: 0.593423
+autopalya: 0.00890371
+parkoló: 0.141412
+--> AUTÓPÁLYA
+
+--9--
+stop: 0.705934
+--> STOP
+
+--10--
+stop: 1.05852
+--> STOP
+
+--11--
+--> NINCS TÁBLA A KÉPEN
+
+--12--
+--> NINCS TÁBLA A KÉPEN
+
+--13--
+stop: 0.70437
+--> STOP
+
+--14--
+--> NINCS TÁBLA A KÉPEN
+
+--15--
+stop: 0.73017
+fõútvonal: 0.00443364
+--> FÕÚTVONAL
+
+--16--
+stop: 0.498002
+--> STOP
+
+--17--
+behajtani tilos: 0.940501
+stop: 0.529145
+--> STOP
+
+--18--
+autopalya: 0.559714
+parkoló: 0.0881235
+--> PARKOLÓ
+
+--19--
+autopalya: 0.153773
+parkoló: 0.0134634
+--> PARKOLÓ
+
+--20--
+autopalya: 0.0731285
+parkoló: 0.14554
+--> AUTÓPÁLYA
+
+--21--
+autopalya: 0.0587322
+parkoló: 0.135774
+--> AUTÓPÁLYA
+
+--22--
+stop: 0.662928
+autopalya: 0.0508299
+parkoló: 0.14554
+--> AUTÓPÁLYA
+
+--23--
+stop: 0.48994
+autopalya: 0.0209502
+parkoló: 0.14554
+--> AUTÓPÁLYA
+
+--24--
+behajtani tilos: 0.969871
+autopalya: 0.173366
+parkoló: 0.155729
+--> PARKOLÓ
+
+--25--
+stop: 0.696278
+--> STOP
+
+--26--
+behajtani tilos: 0.869717
+stop: 0.505873
+autopalya: 0.458063
+parkoló: 0.142644
+fõútvonal: 0.00220398
+--> FÕÚTVONAL
+
+--27--
+fõútvonal: 3.28361e-05
+--> FÕÚTVONAL
+
+--28--
+--> NINCS TÁBLA A KÉPEN
+
+--29--
+elsõbbségadás kötelezõ: 0.0128388
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--30--
+stop: 0.792572
+fõútvonal: 3.28361e-05
+--> FÕÚTVONAL
+
+--31--
+stop: 1.15154
+--> STOP
+
+--32--
+--> NINCS TÁBLA A KÉPEN
+
+--33--
+elsõbbségadás kötelezõ: 0.0690663
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--34--
+--> NINCS TÁBLA A KÉPEN
+
+--35--
+behajtani tilos: 0.18059
+stop: 0.921305
+--> BEHAJTANI TILOS
+
+--36--
+behajtani tilos: 0.379306
+stop: 0.435591
+--> BEHAJTANI TILOS
+
+--37--
+--> NINCS TÁBLA A KÉPEN
+
+--38--
+stop: 0.613984
+--> STOP
+
+--39--
+stop: 0.468588
+--> STOP
+
+--40--
+elsõbbségadás kötelezõ: 0.112002
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--41--
+elsõbbségadás kötelezõ: 0.0858355
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--42--
+autopalya: 0.518212
+parkoló: 0.0305704
+--> PARKOLÓ
+
+--43--
+fõútvonal: 3.28357e-05
+--> FÕÚTVONAL
+
+--44--
+autopalya: 0.128444
+parkoló: 0.0648681
+--> PARKOLÓ
+
+--45--
+autopalya: 0.32144
+parkoló: 0.00986739
+--> PARKOLÓ
+
+--46--
+autopalya: 0.123986
+parkoló: 0.216007
+--> AUTÓPÁLYA
+
+--47--
+--> NINCS TÁBLA A KÉPEN
+
+--48--
+behajtani tilos: 0.72529
+stop: 0.566526
+--> STOP
+
+--49--
+elsõbbségadás kötelezõ: 0.112002
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--50--
+elsõbbségadás kötelezõ: 0.0375949
+stop: 1.15341
+autopalya: 0.13587
+parkoló: 0.152548
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--51--
+stop: 0.475798
+--> STOP
+
+--52--
+behajtani tilos: 0.137766
+stop: 0.449161
+--> BEHAJTANI TILOS
+
+--53--
+stop: 0.448023
+--> STOP
+
+--54--
+behajtani tilos: 0.688401
+stop: 0.376815
+--> STOP
+
+--55--
+--> NINCS TÁBLA A KÉPEN
+
+--56--
+stop: 0.512078
+--> STOP
+
+--57--
+autopalya: 0.467988
+parkoló: 0.164752
+--> PARKOLÓ
+
+--58--
+stop: 0.483488
+autopalya: 0.103123
+parkoló: 0.0537648
+--> PARKOLÓ
+
+--59--
+elsõbbségadás kötelezõ: 0.112002
+autopalya: 0.319717
+parkoló: 0.135774
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--60--
+stop: 0.725957
+--> STOP
+
+--61--
+--> NINCS TÁBLA A KÉPEN
+
+--62--
+behajtani tilos: 0.109521
+stop: 0.40571
+--> BEHAJTANI TILOS
+
+--63--
+behajtani tilos: 0.54284
+stop: 0.505873
+fõútvonal: 3.2836e-05
+--> FÕÚTVONAL
+
+--64--
+elsõbbségadás kötelezõ: 0.0757452
+behajtani tilos: 0.240787
+stop: 0.972261
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--65--
+elsõbbségadás kötelezõ: 0.112002
+behajtani tilos: 1.54194
+stop: 1.15341
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--66--
+--> NINCS TÁBLA A KÉPEN
+
+--67--
+elsõbbségadás kötelezõ: 0.0491727
+stop: 0.48994
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--68--
+autopalya: 0.465744
+parkoló: 0.131682
+--> PARKOLÓ
+
+--69--
+--> NINCS TÁBLA A KÉPEN
+
+--70--
+--> NINCS TÁBLA A KÉPEN
+
+--71--
+stop: 1.26692
+--> STOP
+
+--72--
+autopalya: 0.555146
+parkoló: 0.175
+--> PARKOLÓ
+
+--73--
+behajtani tilos: 1.19795
+stop: 0.643717
+autopalya: 0.772078
+parkoló: 0.25639
+--> PARKOLÓ
+
+--74--
+behajtani tilos: 0.320667
+stop: 0.567224
+--> BEHAJTANI TILOS
+
+--75--
+fõútvonal: 3.28358e-05
+--> FÕÚTVONAL
+
+--76--
+stop: 0.642034
+autopalya: 0.162654
+parkoló: 0.13568
+--> PARKOLÓ
+
+--77--
+fõútvonal: 3.2836e-05
+--> FÕÚTVONAL
+
+--78--
+fõútvonal: 3.28358e-05
+--> FÕÚTVONAL
+
+--79--
+autopalya: 0.562001
+parkoló: 0.143962
+--> PARKOLÓ
+
+--80--
+elsõbbségadás kötelezõ: 0.112002
+stop: 0.487181
+--> ELSÕBBSÉGADÁS KÖTELEZÕ
+
+--81--
+stop: 0.48994
+autopalya: 0.162654
+parkoló: 0.14554
+--> PARKOLÓ
+
+--82--
+--> NINCS TÁBLA A KÉPEN
+
+--83--
+--> NINCS TÁBLA A KÉPEN
+
+--84--
+--> NINCS TÁBLA A KÉPEN
+
+--85--
+--> NINCS TÁBLA A KÉPEN
+
+--86--
+autopalya: 0.188577
+parkoló: 0.144134
+--> PARKOLÓ
+
+--87--
+stop: 1.18561
+--> STOP
+
+--88--
+--> NINCS TÁBLA A KÉPEN
+
+--89--
+behajtani tilos: 0.581088
+stop: 0.457305
+autopalya: 0.188577
+parkoló: 0.0766816
+--> PARKOLÓ
+
+--90--
+autopalya: 0.650036
+parkoló: 0.0866934
+--> PARKOLÓ
+
+--91--
+--> NINCS TÁBLA A KÉPEN
+
+--92--
+--> NINCS TÁBLA A KÉPEN
+
+--93--
+--> NINCS TÁBLA A KÉPEN
+
+--94--
+--> NINCS TÁBLA A KÉPEN
+
+--95--
+--> NINCS TÁBLA A KÉPEN
+
+--96--
+--> NINCS TÁBLA A KÉPEN
+
+--97--
+--> NINCS TÁBLA A KÉPEN
+
+--98--
+--> NINCS TÁBLA A KÉPEN
+
+--99--
+--> NINCS TÁBLA A KÉPEN
+
