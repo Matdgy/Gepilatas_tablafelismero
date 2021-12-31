@@ -74,8 +74,11 @@ int main() {
 	Mat parkolo = imread("kepek/template/parkolo.png");
 
 	Mat img, imgred, imgblue, imgyellow; //aktuális kép és az azon végrehajtott szín szûrés eredményeinek tárolására
+	int iter;
+	cout << "Gepilatas beadando feladat" << endl << "Mathe David Gyorgy" << endl << "R4PBVN" << endl << "Number of pictures: ";
+	cin >> iter;
 
-	for (int i = 0; i < 100; i++) {
+	for (int i = 0; i < iter; i++) {
 
 		//megfelelõ string elõállítása kép beolvasásához
 		path += to_string(i);
